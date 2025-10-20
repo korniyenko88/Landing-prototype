@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  background-color: #1c2225;
+}
+a {
+  cursor: pointer;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  background-image: url('../img/karmolog-professyya.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: auto;
+}
+.container-btn {
+  display: flex;
+  gap: 20px;
+}
+.header-btn {
+  border: 1px solid greenyellow;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-color: blue;
+    max-width: 720px;
+  }
+}
