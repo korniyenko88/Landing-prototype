@@ -76,3 +76,10 @@ a {
   background-position: center;
   background-size: cover;
 }
+
+.main-section {
+  background-image: url('/img/main_bacground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
