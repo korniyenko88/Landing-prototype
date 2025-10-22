@@ -35,18 +35,20 @@ a {
   min-width: 320px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
-  background-image: url('../img/karmolog-professyya.jpg');
+  background-image: url('../img/img_2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-size: auto;
 }
 .container-btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-between;
   display: flex;
-  gap: 20px;
 }
 .header-btn {
-  border: 1px solid greenyellow;
+  border: 1px solid blue;
   padding: 8px;
   border-radius: 8px;
 }
@@ -56,4 +58,21 @@ a {
     background-color: blue;
     max-width: 720px;
   }
+}
+.header-link {
+  font-family: 'Imperial Script', cursive;
+}
+.header-title {
+  padding: 10px;
+  font-family: 'Imperial Script', cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+.bacground-title {
+  border-radius: 8px;
+  background-image: url('../img/img_3.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
