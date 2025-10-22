@@ -22,11 +22,11 @@ img {
 ul {
   list-style: none;
 }
-body {
+/* body {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
   background-color: #1c2225;
-}
+} */
 a {
   cursor: pointer;
 }
@@ -35,7 +35,7 @@ a {
   min-width: 320px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
-  background-image: url('../img/img_2.jpg');
+  background-image: url('/img/img_2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -70,7 +70,7 @@ a {
 }
 .bacground-title {
   border-radius: 8px;
-  background-image: url('../img/img_3.jpg');
+  background-image: url('/img/img_3.jpg');
   background-position: left;
   background-repeat: no-repeat;
   background-position: center;
