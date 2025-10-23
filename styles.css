@@ -42,8 +42,7 @@ a {
   background-size: auto;
 }
 .container-btn {
-  padding-top: 8px;
-  padding-bottom: 8px;
+ padding: 8px 0 8px 0;
   justify-content: space-between;
   display: flex;
 }
@@ -53,12 +52,12 @@ a {
   border-radius: 8px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     background-color: blue;
     max-width: 720px;
   }
-}
+} */
 .header-link {
   font-family: 'Imperial Script', cursive;
 }
