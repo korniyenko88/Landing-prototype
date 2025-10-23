@@ -77,8 +77,16 @@ a {
 }
 
 .main-section {
-  background-image: url('/img/main_bacground.jpg');
+  border-radius: 8px;
+  height: 400px;
+  background-image: url('/img/3913523.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.main-section {
+  font-family: 'Imperial Script', cursive;
+  font-weight: 800;
+  font-style: large;
+  color:aqua;
 }
