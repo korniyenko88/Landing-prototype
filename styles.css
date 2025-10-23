@@ -62,10 +62,12 @@ a {
   font-family: 'Imperial Script', cursive;
 }
 .header-title {
+  width: 280px;
   padding: 10px;
   font-family: 'Imperial Script', cursive;
   font-weight: 600;
   font-style: normal;
+  
 }
 .bacground-title {
   border-radius: 8px;
@@ -74,7 +76,9 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
 }
+
 
 .main-section {
   border-radius: 8px;
@@ -83,6 +87,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
 }
 .main-section {
   font-family: 'Imperial Script', cursive;
