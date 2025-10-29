@@ -41,7 +41,54 @@ a {
   background-size: cover;
   background-size: auto;
 }
-.container-btn {
+
+.header {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menu-btn {
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav {
+  display: none; /* Спочатку меню приховане */
+  background: #333;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.nav.active {
+  display: block; /* Коли додається клас .active — показуємо меню */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  border-bottom: 1px solid #444;
+}
+
+.nav-list li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-list li a:hover {
+  background: #444;
+}
+
+/* .container-btn {
  padding: 8px 0 8px 0;
   justify-content: space-between;
   display: flex;
@@ -50,7 +97,7 @@ a {
   border: 1px solid blue;
   padding: 8px;
   border-radius: 8px;
-}
+} */
 
 /* @media (min-width: 768px) {
   .container {

@@ -19,10 +19,27 @@
   </head>
   <body>
     <header class="container">
-      <div class="container-btn">
+       <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="nav" id="navMenu">
+      <ul class="nav-list">
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <script>  const menuBtn = document.getElementById("menuBtn");
+  const navMenu = document.getElementById("navMenu");
+
+  menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active"); // додає або забирає клас .active
+  });</script>
+      <!-- <div class="container-btn">
         <div class="header-btn"><a class="header-link">Інтенсив</a></div>
         <div class="header-btn"><a class="header-link">Хочу замовити!</a></div>
-      </div>
+      </div> -->
       <!-- <img src="/img/img_3.jpg" alt="err" height="" width="80px" /> -->
       <div class="bacground-title">
         <h1 class="header-title">
