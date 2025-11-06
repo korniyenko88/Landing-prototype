@@ -58,15 +58,19 @@ a {
 
 .nav {
   display: none; /* Спочатку меню приховане */
-  background: #333;
+   background: #333;
   margin-top: 10px;
   border-radius: 8px;
+  position: absolute;
 }
 
 .nav.active {
   display: block; /* Коли додається клас .active — показуємо меню */
-}
 
+}
+.container-menu {
+  
+}
 .nav-list {
   list-style: none;
   padding: 0;
