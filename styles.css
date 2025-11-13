@@ -35,7 +35,7 @@ a {
   min-width: 320px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
-  background-image: url('/img/img_2.jpg');
+  background-image: url('/img/main_bacground.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -49,6 +49,7 @@ a {
 }
 
 .menu-btn {
+  border: 1px solid black;
   font-size: 24px;
   background: none;
   color: white;
@@ -121,8 +122,9 @@ a {
   
 }
 .bacground-title {
+  height: 500px;
   border-radius: 8px;
-  background-image: url('/img/img_3.jpg');
+  background-image: url('/img/IMG_1.jpg');
   background-position: left;
   background-repeat: no-repeat;
   background-position: center;
@@ -132,9 +134,10 @@ a {
 
 
 .main-section {
+  height: 500px;
   border-radius: 8px;
   height: 400px;
-  background-image: url('/img/3913523.jpg');
+  background-image: url('/img/img_2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
