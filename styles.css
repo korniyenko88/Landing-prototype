@@ -51,16 +51,17 @@ a {
   position: relative;
 }
 
-@keyframes blink {
-  0%, 100% {
-    opacity: 1;
+@keyframes scale-up-down {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
   }
   50% {
-    opacity: 0.5;
+    transform: translateX(-50%) scale(1.1); /* збільшення на 10% */
   }
 }
 .button-img {
-  animation: blink 1s infinite;
+  animation: scale-up-down 1s infinite;
   padding: 0;
   border: none;
   left: 50%;
@@ -74,6 +75,22 @@ a {
   border-radius: 8px;
   background-color: #fe9b0b;
 }
+
+/* .button-img {
+  animation: blink-zoom 1s infinite;
+  padding: 0;
+  border: none;
+  left: 50%;
+  top: 78%;
+  transform: translateX(-50%);
+  font-size: large;
+  color: red;
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #fe9b0b;
+} */
 .button-3 {
   padding: 0;
   border: none;
