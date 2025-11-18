@@ -43,7 +43,7 @@ a {
 }
 .img-main {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   /* object-fit: cover;
   text-align: center; */
 }
