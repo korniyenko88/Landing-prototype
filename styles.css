@@ -29,9 +29,16 @@ ul {
 } */
 a {
   cursor: pointer;
-} 
-.img-landing {
-  object-fit:cover;
-  overflow: hidden;
 }
-
+.img-landing {
+    display: block;
+  margin: 0 auto;
+  /* object-fit: cover;
+  overflow: hidden; */
+}
+.img-main {
+    display: block;
+  margin: 0 auto;
+    /* object-fit: cover;
+  text-align: center; */
+}
