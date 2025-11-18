@@ -144,6 +144,10 @@ a {
 }
 
 .button-final-2 {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   padding: 0;
   border: none;
