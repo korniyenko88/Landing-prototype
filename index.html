@@ -23,7 +23,12 @@
           width="100%"
           alt="img intensiv"
         />
-        <button class="button-img">ПОЧНИ СВОЄ РОЗСЛІДУВАННЯ</button>
+        <button class="button-img" onclick="scrollToTarget()">ПОЧНИ СВОЄ РОЗСЛІДУВАННЯ</button>
+      <script>
+  function scrollToTarget() {
+    document.getElementById('target-img-5').scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
       </div>
     </header>
     <main>
@@ -54,7 +59,7 @@
         />
          <button class="button-3">Хочу контентне розслідування</button>
       </div>
-      <div class="img-container">
+      <div class="img-container" id="target-img-5">
         <img
           class="img-main"
           src="/img/IMG_5.jpg"
