@@ -34,6 +34,7 @@ ul {
 } */
 a {
   cursor: pointer;
+  text-decoration:none ;
 }
 .img-landing {
   display: block;
@@ -154,6 +155,26 @@ a {
   position: absolute;
   width: 250px;
   height: 40px;
+  border-radius: 8px;
+  background-color: #fe9b0b;
+}
+
+.button-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  border: none;
+  left: 50%;
+  top: 77%;
+  transform: translateX(-50%);
+  font-size: large;
+  color: black;
+  position: absolute;
+  width: 200px;
+  height: 80px;
   border-radius: 8px;
   background-color: #fe9b0b;
 }
