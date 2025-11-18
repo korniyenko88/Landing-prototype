@@ -23,10 +23,10 @@
           width="100%"
           alt="img intensiv"
         />
-        <button class="button-img" onclick="scrollToTarget()">ПОЧНИ СВОЄ РОЗСЛІДУВАННЯ</button>
+        <button class="button-img" onclick="scrollToTarget('target-img-3')">ПОЧНИ СВОЄ РОЗСЛІДУВАННЯ</button>
       <script>
-  function scrollToTarget() {
-    document.getElementById('target-img-5').scrollIntoView({ behavior: 'smooth' });
+  function scrollToTarget(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
   }
 </script>
       </div>
@@ -41,14 +41,19 @@
         />
          
       </div>
-      <div class="img-container">
+      <div class="img-container" id="target-img-3">
         <img
           class="img-main"
           src="/img/IMG_33.jpg"
           width="100%"
           alt="img-landing"
         />
-        <button class="button-3">Хочу контентне розслідування</button>
+        <button class="button-3"  onclick="scrollToTarget('target-img-8')" >Хочу контентне розслідування</button>
+      <script>
+  function scrollToTarget(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
       </div>
       <div class="img-container">
         <img
@@ -57,17 +62,27 @@
           width="100%"
           alt="img-landing"
         />
-         <button class="button-3">Хочу контентне розслідування</button>
-      </div>
-      <div class="img-container" id="target-img-5">
+         <button class="button-3" onclick="scrollToTarget('target-img-8')">Хочу контентне розслідування</button>
+     <script>
+  function scrollToTarget(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+        </div>
+      <div class="img-container" >
         <img
           class="img-main"
           src="/img/IMG_5.jpg"
           width="100%"
           alt="img-landing"
         />
-         <button class="button-3">Хочу контентне розслідування</button>
-      </div>
+         <button class="button-3" onclick="scrollToTarget('target-img-8')">Хочу контентне розслідування</button>
+      <script>
+  function scrollToTarget(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+        </div>
       <div class="img-container">
         <img
           class="img-main"
@@ -75,8 +90,13 @@
           width="100%"
           alt="img-landing"
         />
-         <button class="button-3">Хочу контентне розслідування</button>
-      </div>
+         <button class="button-3"  onclick="scrollToTarget('target-img-8')">Хочу контентне розслідування</button>
+     <script>
+  function scrollToTarget(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+        </div>
       <div class="img-container">
         <img
           class="img-main"
@@ -84,11 +104,16 @@
           width="100%"
           alt="img-landing"
         />
-         <button class="button-3">Хочу контентне розслідування</button>
-      </div>
+         <button class="button-3"  onclick="scrollToTarget('target-img-8')">Хочу контентне розслідування</button>
+    <script>
+  function scrollToTarget(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+        </div>
     </main>
     <footer>
-      <div class="img-container">
+      <div class="img-container" id="target-img-8">
         <img
           class="img-main"
           src="/img/IMG_8.jpg"
