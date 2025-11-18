@@ -29,5 +29,9 @@ ul {
 } */
 a {
   cursor: pointer;
+} 
+.img-landing {
+  object-fit:cover;
+  overflow: hidden;
 }
 
