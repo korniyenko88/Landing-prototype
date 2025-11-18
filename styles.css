@@ -50,7 +50,17 @@ a {
 .img-container {
   position: relative;
 }
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
 .button-img {
+  animation: blink 1s infinite;
   padding: 0;
   border: none;
   left: 50%;
@@ -69,6 +79,36 @@ a {
   border: none;
   left: 50%;
   top: 73%;
+  transform: translateX(-50%);
+  font-size: large;
+  color: red;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #fe9b0b;
+}
+
+.button-8 {
+  padding: 0;
+  border: none;
+  left: 50%;
+  top: 77%;
+  transform: translateX(-50%);
+  font-size: large;
+  color: red;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #fe9b0b;
+}
+
+.button-9 {
+  padding: 0;
+  border: none;
+  left: 50%;
+  top: 77%;
   transform: translateX(-50%);
   font-size: large;
   color: red;
